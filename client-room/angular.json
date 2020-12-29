@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "client-room"
+    }
+  },
+  "defaultProject": "client-room",
+  "cli": {
+    "analytics": false
+  }
 }

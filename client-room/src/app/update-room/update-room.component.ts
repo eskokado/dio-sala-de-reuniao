@@ -20,9 +20,9 @@ export class UpdateRoomComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.room = new Room()
+    this.room = new Room();
 
-    this.id = this.route.snapshot.params['id']
+    this.id = this.route.snapshot.params[`id`];
 
     this.roomService.getRoom(this.id)
       .subscribe(
@@ -45,7 +45,7 @@ export class UpdateRoomComponent implements OnInit {
         (error) => {
           console.log(error);
         }
-      )
+      );
     this.room = new Room();
     this.gotoList();
   }
@@ -55,7 +55,7 @@ export class UpdateRoomComponent implements OnInit {
   }
 
   gotoList() {
-    this.router.navigate(["/rooms"]);
+    this.router.navigate(['/rooms']);
   }
 
 }

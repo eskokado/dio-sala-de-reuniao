@@ -23,9 +23,9 @@ export class RoomDetailsComponent implements OnInit {
 
   ngOnInit(): void {
     this.room = new Room();
-    this.id = this.route.snapshot.params["id"];
+    this.id = this.route.snapshot.params[`id`];
 
-    this.roomService.getRoom(this.id);
+    this.roomService.getRoom(this.id)
       .subscribe(
         (data) => {
           console.log(data);
@@ -38,6 +38,6 @@ export class RoomDetailsComponent implements OnInit {
   }
 
   list() {
-    this.router.navigate(["rooms"])
+    this.router.navigate(['rooms']);
   }
 }

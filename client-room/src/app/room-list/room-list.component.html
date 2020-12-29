@@ -1,7 +1,12 @@
 <div class="panel panel-primary">
-  <div class="panel-heading">
-    <h2>Room List</h2>
-  </div>
+  <div class="panel-heading row align-items-center">
+    <div class="col-9">
+        <h2>Room List</h2>
+    </div>
+    <div class="btn-group pull-left col-3 mb-3">
+      <button (click)="addRoom()" class="btn btn-primary">Add Room</button>
+    </div>
+</div>
   <div class="panel-body">
     <table class="table table-striped">
       <thead>
