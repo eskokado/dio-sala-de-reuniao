@@ -16,8 +16,8 @@ public class Room {
     @Column(nullable = false)
     private String date;
 
-    @Column(name = "star_hour",nullable = false)
-    private String starHour;
+    @Column(name = "start_hour",nullable = false)
+    private String startHour;
 
     @Column(name = "end_hour", nullable = false)
     private String endHour;
@@ -25,11 +25,11 @@ public class Room {
     public Room() {
     }
 
-    public Room(Long id, String name, String date, String starHour, String endHour) {
+    public Room(Long id, String name, String date, String startHour, String endHour) {
         this.id = id;
         this.name = name;
         this.date = date;
-        this.starHour = starHour;
+        this.startHour = startHour;
         this.endHour = endHour;
     }
 
@@ -57,12 +57,12 @@ public class Room {
         this.date = date;
     }
 
-    public String getStarHour() {
-        return starHour;
+    public String getStartHour() {
+        return startHour;
     }
 
-    public void setStarHour(String starHour) {
-        this.starHour = starHour;
+    public void setStartHour(String startHour) {
+        this.startHour = startHour;
     }
 
     public String getEndHour() {
@@ -79,7 +79,7 @@ public class Room {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", date='" + date + '\'' +
-                ", starHour='" + starHour + '\'' +
+                ", starHour='" + startHour + '\'' +
                 ", endHour='" + endHour + '\'' +
                 '}';
     }

@@ -46,7 +46,7 @@ public class RoomController {
                 .orElseThrow(() -> new ResourceNotFoundException("Room not found:: " + id));
         room.setName(roomDetails.getName());
         room.setDate(roomDetails.getDate());
-        room.setStarHour(roomDetails.getStarHour());
+        room.setStartHour(roomDetails.getStartHour());
         room.setEndHour(roomDetails.getEndHour());
         final Room updateRoom = roomRepository.save(room);
         return ResponseEntity.ok().body(updateRoom);
