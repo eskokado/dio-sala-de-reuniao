@@ -1,4 +1,4 @@
-# digitalinnovationone_kamila_salasdereuniao
+# dio-sala-de-reuniao
 Projeto: Crie seu gerenciador de salas de reuniões com Java e Angular
 Aula da Digital Innovation One com a especialista kamila Santos
 
