@@ -13,4 +13,4 @@ Aula da Digital Innovation One com a especialista kamila Santos
 
 ##### Instalação:
 ##### O backend -> pasta: backend
-##### O frontend -> pasta: front_angular/client-room 
+##### O frontend -> pasta: client-room 
