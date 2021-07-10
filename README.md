@@ -29,8 +29,8 @@ npm run cypress
 ### Testes - Cypress
 #### Testar na seguinte ordem
 
->> app-init
->> add-client-room
->> details-client-room
->> update-client-room
->> delete-client-room
+* app-init
+* add-client-room
+* details-client-room
+* update-client-room
+* delete-client-room
