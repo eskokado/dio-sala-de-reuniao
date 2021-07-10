@@ -13,4 +13,24 @@ Aula da Digital Innovation One com a especialista kamila Santos
 
 ##### Instalação:
 ##### O backend -> pasta: backend
+> executar o comando
+```shell script
+mvn spring-boot:run
+```
 ##### O frontend -> pasta: client-room 
+> executar cada comando em cada janela
+```shell script
+npm start
+```
+```shell script
+npm run cypress
+```
+
+### Testes - Cypress
+#### Testar na seguinte ordem
+
+> app-init
+> add-client-room
+> details-client-room
+> update-client-room
+> delete-client-room
